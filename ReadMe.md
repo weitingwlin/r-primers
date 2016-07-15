@@ -14,7 +14,7 @@ If you are totally new, see **Before any analysis** below and start with install
 ### Before any analysis
 Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: go to the [swirl](http://swirlstats.com/students.html) website and follow the instructions.
 
- For each project we will [set up working environment](), this is espetially important when we work on multiple machine, or work with a team.
+ For each project we will [set up working environment](https://github.com/weitingwlin/r-primers/blob/master/Documents/Set_up_working.md), this is espetially important when we work on multiple machine, or work with a team.
      
  Also, some basics of [working with .R files](). 
  

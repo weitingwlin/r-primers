@@ -2,6 +2,8 @@
 
 Give each project a folder (or "directory"), let's call it  **project folder**. In the folder, there should be a **ReadMe file** (e.g. ReadMe.md) that keeps a record for all the rest files and folders.
 
+![plot2](images/img_projectfolder.png)
+
 **Data** can be put in a seperate folder (maybe called "data").
 
 The **R scripts** (.R files) will be kept in this project folder. 

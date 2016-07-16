@@ -20,7 +20,7 @@ Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: g
  
  Load data (from text, excel, ...), and preparing the data to be loaded.
 
-### [Catalog of "primers"]()
+### [Catalog of "primers"](https://github.com/weitingwlin/r-primers/tree/master/Documents)
 
 ## general utility
 ### sequence, vector, matrix

@@ -10,9 +10,9 @@
 
 # 2. use control loop to set working directory 
   
-  if(grepl(computer, "weitindeAir")){
+  if(grepl(computer, "weitingdeAir")){
     
-    setwd("/Users/weitinglin/Dropbox/DataCoding/my_R/R_primers")
+    setwd("/Users/weitinglin/Dropbox/DataCoding/R_primers")
     
   }else { 
       if(grepl(computer, "WLIN_PC")){

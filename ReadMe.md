@@ -9,31 +9,33 @@ If you have R (and Rstudio) installed and used it before, you can maybe find wha
 
 If you are totally new, see **Before any analysis** below and start with installing.
 
-**General utility** will be the archive for the scripts, examples of small tasks you might need. 
+**Basic utility** will be the archive for the scripts, examples of small tasks you might need. 
 
 ### Before any analysis
 Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: go to the [swirl](http://swirlstats.com/students.html) website and follow the instructions.
 
- For each project we will [set up working environment](https://github.com/weitingwlin/r-primers/blob/master/Documents/Set_up_working.md), this is espetially important when we work on multiple machine, or work with a team.
+ For each project we will [set up working environment](Documents/Set_up_working.md), this is espetially important when we work on multiple machine, or work with a team.
      
- Also, some basics of [working with .R files](). 
+ Also, some basics of [working with .R files](\Documents\Working_with_scripts.md). 
  
  Load data (from text, excel, ...), and preparing the data to be loaded.
 
 ### [Catalog of "primers"](https://github.com/weitingwlin/r-primers/tree/master/Documents)
 
-## general utility
-### sequence, vector, matrix
-### loops: if, for
+## Basic utility
+### control loops: if, for
+### sequence, vector, matrix, dataframe
+### plots: histogram, biplot
 
-## task-based primers
-### PCA
+
+## Task-Based Primers
+### [PCA](\Documents\PCA.md)
 ### SEM
 
 
-## matlab user adapter
+## Matlab user adapter
 [R for matlab users](http://mathesaurus.sourceforge.net/octave-r.html)
 
-## resources & references
+## Resources & references
 [R Tutorial](http://www.r-tutor.com/)
 

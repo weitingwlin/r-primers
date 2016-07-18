@@ -11,29 +11,31 @@
 # Install and load the packages 
 #
 #   install.packages("labdsv")  
+
 #   install.packages("dave")
 
-  library('labdsv') # for the pca function
-  library('dave')   # for the data set
+# 0. loading pacakges
+  library('labdsv') # for the pca functions
+#  library('dave')   # for the data set
 
    
-# 1. preparing   
+# 1. preparing data
   raw <- matrix(c(1,2,2.5, 2.5, 1,0.5, 0, 1, 2, 4, 3, 1), nrow = 6)
   colnames(raw) <- c("s1","s2")
   rownames(raw) <- c("r1","r2","r3","r4","r5","r6")
 
-# 2. Do 
+# 2. Do PCA
   o.pca <-pca(raw)
   
-## view results
+##  view results
   o.pca
 
-## percentage of variance explained
+## Percentage of variance explained
   E <- o.pca$sdec^2/o.pca$totdev
   
-## Plotting data on PC axes  
-  plot(o.pca$scores[,1], o.pca$scores[,2], 
-       type="p", 
-       asp=1, 
-       xlab = 'PC1', 
-       ylab = 'PC2')
+## 3. Plotting data on PC axes  
+   plot(o.pca$scores[,1], o.pca$scores[,2], 
+        type="p", 
+        asp=1, 
+        xlab = 'PC1', 
+        ylab = 'PC2')

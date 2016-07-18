@@ -16,7 +16,7 @@ Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: g
 
  For each project we will [set up working environment](Documents/Set_up_working.md), this is espetially important when we work on multiple machine, or work with a team.
      
- Also, some basics of [working with .R files](\Documents\Working_with_scripts.md). 
+ Also, some basics of [working with .R files](Documents\Working_with_scripts.md). 
  
  Load data (from text, excel, ...), and preparing the data to be loaded.
 
@@ -29,7 +29,7 @@ Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: g
 
 
 ## Task-Based Primers
-### [PCA](\Documents\PCA.md)
+### [PCA](https://github.com/weitingwlin/r-primers/blob/master/Documents/PCA.md)
 ### SEM
 
 

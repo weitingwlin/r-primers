@@ -14,7 +14,7 @@ Each row should be an **observation**, each column be a **variable**.
 ##### biplot
 
 ## Primers
-### [TBP_PCA1: examples in the _Wildi, 2013_ book](/TBP_PCA1.md)
+### [TBP_PCA1: examples in the _Wildi, 2013_ book](https://github.com/weitingwlin/r-primers/blob/master/Documents/TBP_PCA1.md)
 
 1. Prepare hand-input matrix data
 2. Do PCA with function `pca` in the _labdsv_ package

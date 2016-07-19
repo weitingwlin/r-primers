@@ -10,7 +10,7 @@
   if( X >= 1 ) message("good!")
 
 ## long form
-  if( X > 1 && Y >1 ){
+  if( X > 1 & Y >1 ){
   
     message("good!")
     message('X > 1 and Y > 1')

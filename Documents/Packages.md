@@ -23,7 +23,7 @@ For example, now when you run this line. R will find the function `qplot` and va
 		qplot(hwy, data = mpg)
 
 ### Help, Manual, _CRAN_
-Packages are stored in the [CRAN (The Comprehensive R Archive Network)](https://cran.r-project.org/index.html), and for each package there is an information page.(example again with the [_ggplot2_ package](https://cran.r-project.org/index.html)
+Packages are stored in the [CRAN (The Comprehensive R Archive Network)](https://cran.r-project.org/index.html), and for each package there is an information page.(example again with the [_ggplot2_ package](https://cran.r-project.org/web/packages/ggplot2/index.html)
 
 That is where you find the **Reference manual** .pdf for any packages.
 

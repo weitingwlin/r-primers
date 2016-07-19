@@ -21,6 +21,12 @@ library(ggplot2)
          main = "My Plot", 
          xlab = "X", 
          ylab ="simulation data")
+    
+    abline(0,0, col="darkblue", lty=5)
+    text(5, 1, 'my text here')
+
+        
+    
 ## 2. using ggplot2 
     qplot(X,Y)
     
@@ -42,10 +48,14 @@ library(ggplot2)
     
     
 ## 5. lines: smooth, lm
-    g + geom_point() + geom_smooth()
+    g + geom_smooth()
+    
     g + geom_point() + geom_smooth(method = "lm")
-    g + geom_smooth(method = "lm")
+
     
 ## 6. style, design    
-    g + geom_point(color = "steelblue", size = 4, alpha = 1/2)# alpha is transparency
+    g + geom_point(color = "skyblue", size = 4, alpha = 3/4)# alpha is transparency
+  
     g + geom_point(aes(color = drv), size = 4, alpha = 1/2)
+    
+    

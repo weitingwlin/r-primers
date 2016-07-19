@@ -1,6 +1,6 @@
 ## Making histogram
 
-All scripts are also in **plot_histogram.R**([GitHub link](https://github.com/weitingwlin/r-primers/blob/master/R_files/plots_histogram.R))
+All scripts are also in **plots_histogram.R** ([GitHub link](https://github.com/weitingwlin/r-primers/blob/master/R_files/plots_histogram.R))
 
 Making histograms using base plot system and _ggplot2_. 
 
@@ -31,7 +31,7 @@ and get some more control:
 c
         
 ### 3. using ggplot2: qplot
-Load the package _ggplot2_ (install if you haven't):
+Load the [package _ggplot2_](https://cran.r-project.org/web/packages/ggplot2/index.html) (please [install the package](https://github.com/weitingwlin/r-primers/blob/master/Documents/Packages.md#download-and-install-packages) if you haven't):
 
     #      install.packages("ggplot2")
     library(ggplot2)

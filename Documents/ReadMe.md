@@ -8,16 +8,20 @@
 ### The system
 * R, R studio, 
 * [packages](Packages.md)
+
 ### Start coding
 * Variables, Sequences, Matrix, data frame 
 * [logical operation](logical_operation.md)
 * control loops: [if..else](if_else_control.md), for 
 * [Scripts, .R files](Working_with_scripts.md)
+
 ### Function
 * [Using(calling) a function](Function_use.md)
+
 ### Plots
 * [Histogram](Plot_histograms.md)
 * Biplot
+
 ### Simulation
 * [Simulation of random numbers](Simulation_random.md)
 

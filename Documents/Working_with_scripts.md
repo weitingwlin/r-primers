@@ -8,6 +8,9 @@
 Open a file using command line (Make sure the file is in your [working directory](https://github.com/weitingwlin/r-primers/blob/master/Documents/Set_up_working.md#elements-in--set_pathr)):
 		
   		file.edit("script_ex_sequence.R")
+  		
+
+This command [calls a function](Functions_use.md), and the function `file.edit` open the file with the name **set_path.R** for you.
 
 ## Run scripts
 (Besides Copy-Pasting script to console...)

@@ -44,6 +44,9 @@ You can save whatever is returned (the result) in a new or existing variable.
 
 Note that with the above command you change (update) the value of `X`. Type `X` to check the new value of variable `X`.
 
+### Previous command
+Use **up** and **down** keys to toggle through your previous commands. 
+
 ## Environment (workspace)
 Now, R memorized your variable X and its value. X will appear on the **environment** window. You can also use function `ls()` to see what is in your environment. 
 

@@ -18,7 +18,6 @@ Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: g
  Or you might try a **top-down method**, start working on a [Task-Based Primers](https://github.com/weitingwlin/r-primers/tree/master/Documents#catalog-of-task-based-projects), and click-learn everything you need on the way.
 
 
-### [Catalog of "primers"](https://github.com/weitingwlin/r-primers/tree/master/Documents)
 
 ## [Basic utility](https://github.com/weitingwlin/r-primers/tree/master/Documents#catalog-of-basic-utilities)
 Basic tips of R programing and How-To, including examples. This would be the knowladge base of the **Task-Based Primers**.  

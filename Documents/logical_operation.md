@@ -1,21 +1,22 @@
 # Logical operation
 
-Using **logical operators**, we can make R judges whether a statement is TRUE or FALSE. Or, a logical operation returns a logical variable (, T or F).
+Using **logical operators**, we can make R judges whether a statement is **TRUE** or **FALSE**. Or, a logical operation returns a logical variable (**TRUE** or **FALSE**, **T** or **F**).
 
-For example, this logical operation returns FALSE:
+For example, this logical operation returns **FALSE**:
 
 	1 >= 2 # FALSE
 
 Note **TRUE** or **FALSE** are all capital.
-The returned logical variable can be further used in [control loops](if_else_control.md) or logical operation, wrapped in`()`: 
+The returned logical variable can be further used in [control loops](if_else_control.md) or another logical operation, wrapped in`()`: 
 	
 	(1>=2) == F 
 
-(Note: TRUE/ FALSE and T/F are interchangeable.)
+(Note: **TRUE/FALSE** and **T/F** are interchangeable.)
 ### Not!
 In R, "not" is expressed by `!`
 
 	!(1>=2) # TRUE
+
 "Not equal to" is `!=`  
   
     1 != 2  # TRUE
@@ -40,6 +41,7 @@ and matrix:
     
      Y <- matrix(seq(1,6),nrow = 3)
      Y >= 3
+
 ### all, any (functions)
 In vectors or matrix, we can check if all elements are TRUE, or any elements are TRUE.
 
@@ -49,7 +51,7 @@ In vectors or matrix, we can check if all elements are TRUE, or any elements are
      any(X>3) # TRUE
 
 ## List of logical operators
-* >
+* >    
 * <
 * >=
 * <=

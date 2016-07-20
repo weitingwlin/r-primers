@@ -50,6 +50,6 @@ The document (or user manual) of function `mean` will appear on the help window.
 3. On the **Usage** section you will see the syntax:
 	**mean(x, trim = 0, na.rm = FALSE, ...)**
    ,where x is the required argument 
-4. The optional arguments are the ones with default values (assigned with `=`), and you will find details in the **argument** section.
+4. The optional arguments are the ones with default values (assigned with `=`), and you will find details in the **Argument** section.
 
 

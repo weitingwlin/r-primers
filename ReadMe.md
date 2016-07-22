@@ -1,6 +1,5 @@
 # R-Primers 
 
-
 The goal of this project is to create a well-cataloged scripts (templates), so users can start a project with R quickly even when we are not (currently) familiar with R. 
 
 ## How to use?
@@ -12,7 +11,7 @@ If you are totally new, see **Before any analysis** below and start with install
 ### Before any analysis
 Installing R, [RStudio](https://www.rstudio.com/home/), and learn basics in R: go to the [swirl](http://swirlstats.com/students.html) website and follow the instructions.
 
- For each project we will [set up working environment](Documents/Set_up_working.md), this is espetially important when we work on multiple machine, or work with a team. Also, some basics of [working with scripts and .R files](https://github.com/weitingwlin/r-primers/blob/master/Documents/Working_with_scripts.md). 
+ For each project we will [set up working environment](Documents/Set_up_working.md), this is espetially important when we work on multiple machine, or work with a team. Also, some basics of [working in Rstudio](https://github.com/weitingwlin/r-primers/blob/master/Documents/Working_with_Rstudio.md) and [working with scripts and .R files](https://github.com/weitingwlin/r-primers/blob/master/Documents/Working_with_scripts.md). 
  
  With these skills you should be able to play through the examples in [Basic utility](https://github.com/weitingwlin/r-primers/tree/master/Documents#catalog-of-basic-utilities), and learn R at your own pace. 
 

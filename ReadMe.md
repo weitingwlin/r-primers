@@ -9,14 +9,19 @@ If you have R (and Rstudio) installed and have used it before, you can maybe fin
 If you are totally new, see **Before coding** below and start with installing R.
 
 ### Before coding: install, get it all set
-#### Step 1: Install R
-#### Step 2: Install [RStudio](https://www.rstudio.com/home/),
+#### Step 1: Install [R](https://cran.rstudio.com/index.html)
+
+#### Step 2: Install [RStudio](https://www.rstudio.com/home/)
+Rstudio makes R much easier to use, and all the examples in this repo are done with Rstudio. (Actually I don't know how to work with the nacked R, so...)
+
 #### Step 3: Learn how it works
 * Learn how to [work in Rstudio](https://github.com/weitingwlin/r-primers/blob/master/Documents/Working_with_Rstudio.md), tell R to do somthing for you with **commands**. 
 * Learn how to [working with scripts and .R files](https://github.com/weitingwlin/r-primers/blob/master/Documents/Working_with_scripts.md), so you can keep track of your commands, and actually start programming. 
+ 
 #### Step 4: Prepare a project folder
 * Prepare a folder (anywhere on your computer) for your project
 * [Set up working environment](Documents/Set_up_working.md) 
+
 #### Step 5: Climb on!
  With these skills you should be able to play through the examples in [Basic utility](https://github.com/weitingwlin/r-primers/tree/master/Documents#catalog-of-basic-utilities), and learn R at your own pace. 
 
@@ -29,10 +34,12 @@ Basic tips of R programing and How-To, including examples. This would be the kno
 Each topics is small, and linked with other topics.  
 
 ## [Task-Based Primers](https://github.com/weitingwlin/r-primers/tree/master/Documents#catalog-of-task-based-projects)
+
 ### [PCA](https://github.com/weitingwlin/r-primers/blob/master/Documents/PCA.md)
 
 ## Resources & references
 [R Tutorial](http://www.r-tutor.com/)
 [swirl](http://swirlstats.com/students.html) a package for tutorial in R.
+
 #### Matlab user adapter
 [R for matlab users](http://mathesaurus.sourceforge.net/octave-r.html)

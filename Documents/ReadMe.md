@@ -6,11 +6,12 @@
 
 ## Catalog of basic utilities
 ### The system
-* R, R studio, 
+* [working with R studio](Working_with_Rstudio.md)
+* [wotking with Scripts (.R files)](Working_with_scripts.md)
 * [packages](Packages.md)
 
 ### Start coding
-* Variables, Sequences, Matrix, data frame 
+* [Variables (types), Object (types)](Data_variables1.md) Matrix, data frame 
 * [logical operation](logical_operation.md)
 * control loops: [if..else](if_else_control.md), for 
 * [Scripts, .R files](Working_with_scripts.md)
@@ -20,7 +21,7 @@
 
 ### Plots
 * [Histogram](Plot_histograms.md)
-* Biplot
+* [Biplot](Plot_biplots.md)
 
 ### Simulation
 * [Simulation of random numbers](Simulation_random.md)

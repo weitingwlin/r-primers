@@ -1,14 +1,19 @@
 # R studio
 Open it!
 
-## Console, prompt, command
-In the console window, there is a `>`, called prompt, you can type something after the prompt (or copy-paste), the text you typed is called **command**:
+
+
+## Console 
+### prompt `>`, command
+In the console window, there is a `>`, called **prompt**, you can type something after the prompt (or copy-paste), the text you typed is called **command**:
+
+![plot1](images/Rstudio1.png)
 
 For example, type :
  
 	1 + 1
 
-This is an example of **Arithmetic operation** (calculations).
+This is an example of [**Arithmetic operation** (calculations)](arithmetic_operation.md).
 In the console you can also do [**Logical operation**](logical_operation.md):
 
 	1 > 0
@@ -18,14 +23,16 @@ At the console, you can also call a function:
 
    	ls()
 
-Here, `ls` is a function that **returns** the list of things in your **environment** (see the later section).
+Here, `ls` is a function that **returns** the list of things in your **environment** (see the later section). Or,
+
+	sqrt(4) # calcualate square root of 4
 
 More about using functions [here](Functions_use.md). 
 
-### Variables 
-Another thing you can do is declare or assign value to a variable.
+### Working with variables 
+Another thing you can do is declare or assign value to a variable. 
 
-#### Declare a variable
+##### Declare a variable
 ("Declare" means "create, specify, define, name" a variable...)
 
 In R, you usually declare a variable, and give it a **value** at the same time, using `<-` ("smaller than" and "minus"):
@@ -44,6 +51,19 @@ You can save whatever is returned (the result) in a new or existing variable.
 
 Note that with the above command you change (update) the value of `X`. Type `X` to check the new value of variable `X`.
 
+##### Logical and Arithmetic operations
+Variables can be used in [logical operations](logical_operation.md):
+
+	X > 1  # return: TRUE
+
+Or in [Arithmetic operations](arithmetic_operation.md):
+   
+    Y <- X*3 
+    Y   # see what is the value of Y 
+
+
+
+
 ### Previous command
 Use **up** and **down** keys to toggle through your previous commands. 
 
@@ -57,9 +77,14 @@ Besides typing your commands, you can also copy-paste the commands...
 
 You can create a new .R file by clicking the icon, or [open one existing .R file](https://github.com/weitingwlin/r-primers/blob/master/Documents/Working_with_scripts.md#open-a-r-file). (Don't know where to start? [Downlowd this file](https://github.com/weitingwlin/r-primers/blob/master/R_files/script_ex_sequence.R) and open in R studio.) 
 
+By default, with an open scripts the console will be pushed down:
+
+![plot1](images/Rstudio2.png)
+
 ### Learn more about [working with scripts and .R files](Working_with_scripts.md)
 
 ## Everthing else (help, figure, package...)
+**Files** is where you can find files, it looks like a folder system.
 
 **Help** is where you can check [how to use a function](Functions_use.md).
 

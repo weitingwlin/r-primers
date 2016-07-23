@@ -8,13 +8,14 @@
 ### The system
 * [working with R studio](Working_with_Rstudio.md)
 * [wotking with Scripts (.R files)](Working_with_scripts.md)
+* [Set up working environment](Set_up_working.md)
 * [packages](Packages.md)
 
 ### Start coding
-* [Variables (types), Object (types)](Data_variables1.md) Matrix, data frame 
-* [logical operation](logical_operation.md)
+* [Variables (types)](Data_variables1.md); [Object (types)](Data_variables2.md);  Matrix, data frame 
+* [logical operation](logical_operation.md); [arithmetix operation](arithmetic_operation.md)
 * control loops: [if..else](if_else_control.md), for 
-* [Scripts, .R files](Working_with_scripts.md)
+
 
 ### Function
 * [Using(calling) a function](Function_use.md)

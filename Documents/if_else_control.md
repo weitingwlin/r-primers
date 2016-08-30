@@ -1,6 +1,6 @@
 # if...else control loop
 
-Example of using if...else control loop, scripts in **if\_else\_control.R**([GitHub link](https://github.com/weitingwlin/r-primers/blob/master/R_files/if_else_control.R))
+Example of using if...else control loop, scripts in **if\_else\_control.R** ([GitHub link](https://github.com/weitingwlin/r-primers/blob/master/R_files/if_else_control.R))
 
 ### 0. create variables to be used in control loop 
     X <- 1

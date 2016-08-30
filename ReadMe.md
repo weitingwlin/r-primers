@@ -33,6 +33,7 @@ Rstudio makes R much easier to use, and all the examples in this repo were done 
 ## [Task-Based Primers](https://github.com/weitingwlin/r-primers/tree/master/Documents#catalog-of-task-based-projects)
 
 ### [PCA](https://github.com/weitingwlin/r-primers/blob/master/Documents/PCA.md)
+### [Filter](https://github.com/weitingwlin/r-primers/blob/master/Documents/Filter.md)
 
 ## Resources & references
 * [R Tutorial](http://www.r-tutor.com/)

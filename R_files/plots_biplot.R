@@ -49,7 +49,7 @@ library(ggplot2)
     
 ## 5. lines: smooth, lm
     g + geom_smooth()
-    
+
     g + geom_point() + geom_smooth(method = "lm")
 
     

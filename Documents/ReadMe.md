@@ -19,6 +19,7 @@
 
 ### Function
 * [Using(calling) a function](Function_use.md)
+* [lapply](), [sapply]()
 
 ### Plots
 * [Histogram](Plot_histograms.md)
@@ -29,6 +30,7 @@
 
 ## Catalog of Task-based projects
 * [PCA](PCA.md)
+* [Filter](Filter.md)
 
 
 

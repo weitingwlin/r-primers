@@ -1,7 +1,7 @@
-# R studio
-Open it!
+# Rstudio
+Rstudio is an integrated development environment for R. With Rstudio you can navigate through R more easily.
 
-
+### Open it!
 
 ## Console 
 ### prompt `>`, command
@@ -9,7 +9,7 @@ In the console window, there is a `>`, called **prompt**, you can type something
 
 ![plot1](images/Rstudio1.png)
 
-For example, type :
+For example, type after the prompt :
  
 	1 + 1
 
@@ -27,7 +27,7 @@ Here, `ls` is a function that **returns** the list of things in your **environme
 
 	sqrt(4) # calcualate square root of 4
 
-More about using functions [here](Functions_use.md). 
+[More about using functions](Functions_use.md). 
 
 ### Working with variables 
 Another thing you can do is declare or assign value to a variable. 
@@ -84,10 +84,11 @@ By default, with an open scripts the console will be pushed down:
 ### Learn more about [working with scripts and .R files](Working_with_scripts.md)
 
 ## Everthing else (help, figure, package...)
-**Files** is where you can find files, it looks like a folder system.
+**Files** looks like a folder system. This is where you can find files and [set working environment](https://github.com/weitingwlin/r-primers/blob/master/Documents/Set_up_working.md#in-r-studio-you-can-also-set-working-on-the-user-interface)
 
 **Help** is where you can check [how to use a function](Functions_use.md).
 
 **Figure** is where you see your plots.
 
 **Packages** is where you see your installed and loaded [packages](Packages.md).
+

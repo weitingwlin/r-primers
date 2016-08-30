@@ -12,7 +12,7 @@
   
   if(grepl(computer, "weitingdeAir")){
     
-    setwd("/Users/weitinglin/Dropbox/DataCoding/R_primers")
+    setwd("/Users/weitinglin/Dropbox/DataCoding/R_primers/R_files")
     
   }else { 
       if(grepl(computer, "WLIN_PC")){

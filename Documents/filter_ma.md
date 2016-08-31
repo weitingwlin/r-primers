@@ -8,7 +8,7 @@ A general equation of moving average calculator can be described as **Eqn.1**.
 (**_xt_** is the original data; **_Sm_** is the smoothed data; **_ar_** is the weight.)
 
 #### Eqn.1
- ![plot1](images/filter1.gif)
+ ![plot1](images/Filter1.gif)
 
 (equation edited with [Codecogs](https://www.codecogs.com/latex/eqneditor.php))
 ### Usage

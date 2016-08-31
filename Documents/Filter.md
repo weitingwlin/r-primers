@@ -1,5 +1,5 @@
 # Behavior frequency filter
- This is an example of filtering minute-based behavior counts using function **filter.ma.R**.
+ This is an example of filtering minute-based behavior counts using function [**filter.ma.R**](https://github.com/weitingwlin/r-primers/blob/master/R_files/filter.ma.R). See also [(The document of  **filter.ma.R**)](filter_ma.md).
 
 ## 1. Load and prepare the data 
 #### load data from excel file
@@ -64,9 +64,5 @@ Print the plot out
 
 	  g + geom_line(data = behave, aes(color="A")) + geom_line(aes(y = B_smooth, color ="B")) + labs(color = "behavior") + ylab(paste("frequency in", as.character(window),"min."))
 
-
-## References
- Chatfield, C. (2003). The Analysis of Time Series: An Introduction, Sixth Edition. Taylor & Francis  
-  
 
   

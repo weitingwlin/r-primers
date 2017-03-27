@@ -1,0 +1,42 @@
+---
+title: "Data input and output note 1: CSV"
+output: md_notebook
+---
+```{r, echo = FALSE}
+# loading package or so
+```
+
+# Data input and output
+
+## CSV
+
+create a sample csv file:
+
+```{r}
+if (!dir.exists("data")){
+    dir.create("data")
+}
+if (!file.exists("data/my_example.csv")){
+    write.csv(mtcars, file = "data/my_example.csv")
+}
+```
+
+### read CSV
+
+```{r}
+data <- read.csv("data/my_example.csv")
+head(data, 3)
+```
+
+The imported data is a dataframe 
+
+```{r}
+class(data)
+```
+
+
+
+
+
+
+

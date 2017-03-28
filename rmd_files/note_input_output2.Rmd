@@ -1,0 +1,58 @@
+---
+title: "Data input and output note 2"
+output: md_notebook
+---
+```{r, echo = FALSE, include = FALSE}
+# install.packages("readxl")
+library(readxl)
+library(xlsx)
+```
+
+# Data input and output
+
+## Excel
+
+Get the sheet names in the excel
+```{r}
+# library(readxl)
+excel_sheets("data/Sample-Sales-Data.xlsx")
+# this will list the sheets in the excel file
+```
+
+
+```{r}
+# library(readxl)
+df <- read_excel("data/Sample-Sales-Data.xlsx", sheet = "Sheet1")
+head(df, 3)
+```
+
+### downlowd an entire workbook 
+
+```{r}
+wb <- lapply(excel_sheets("data/Sample-Sales-Data.xlsx"), 
+                          read_excel, 
+                          path = "data/Sample-Sales-Data.xlsx")
+class(wb)
+```
+
+## write to excel
+
+using the `xlsx` package
+```{r}
+# library(xlsx)
+write.xlsx(mtcars, "out_example.xlsx")
+```
+
+
+## note
+
+Macros and VBA stuff will not be imported.
+
+
+
+
+#
+#
+#
+#
+

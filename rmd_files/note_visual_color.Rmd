@@ -1,0 +1,91 @@
+---
+title: "Note on using colors in R"
+output: md_notebook
+---
+
+```{r}
+library(graphics)
+```
+
+(create a function to make example plots)
+
+```{r}
+circleplot <- function(c, r, color){
+    theta <- seq(0, 2 *pi, 0.01)
+    polygon(c[1] + sin(theta) * r, c[2] + cos(theta) * r, 
+            col = color, border = NA, lwd = 2)
+}
+```
+
+
+## Call color by name
+
+* A list of all color names in R can be found [here](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
+
+* or type `colors()` to see the color names. (`colors()` returns a list of 657 strings)
+
+```{r}
+head(colors())
+```
+
+
+
+#### Examples: classic colors
+
+```{r,  fig.width = 5, fig.height = 5}
+# create an empty plot 
+plot(1, type="n", xlim=c(-1,3), ylim=c(-1, 3),  
+     xaxt='n', ann=FALSE, yaxt='n')
+
+circleplot(c(0,0), 0.5, "blue")
+circleplot(c(0,2), 0.5, "lightblue")
+circleplot(c(2,0), 0.5, "gray")
+circleplot(c(2,2), 0.5, "darkgreen")
+```
+
+#### Examples: some fancy colors
+
+```{r,  fig.width = 5, fig.height = 5}
+# create an empty plot 
+plot(1, type="n", xlim=c(-1,3), ylim=c(-1, 3),  
+     xaxt='n', ann=FALSE, yaxt='n')
+
+circleplot(c(0,0), 0.5, "azure")
+circleplot(c(0,2), 0.5, "burlywood")
+circleplot(c(1,0), 0.5, "darkorchid")
+circleplot(c(1,2), 0.5, "hotpink")
+
+```
+
+
+## RGB code
+
+the 4th argument is the "alpha" value
+
+```{r,  fig.width = 7, fig.height = 7}
+
+```
+
+## Hex code
+
+## Alpha value
+
+
+## Conversion
+
+```{r}
+ x <- col2rgb("lightblue")/255
+ rgblightblue <- rgb(x[1], x[2], x[3], alpha = 0.5)
+```
+
+
+## color brewer
+
+```{r}
+#install.packages("RColorBrewer")
+library(RColorBrewer)
+```
+
+also see [this post](https://www.stat.ubc.ca/~jenny/STAT545A/block14_colors.html)
+
+

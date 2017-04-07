@@ -29,6 +29,9 @@
 ### Simulation
 * [Simulation of random numbers](Simulation_random.md)
 
+### Github tips
+* [Hide deleted files](github_delete_file.md)
+
 ## Catalog of Task-based projects
 * [PCA](PCA.md)
 * [Filter](Filter.md)

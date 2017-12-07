@@ -1,0 +1,62 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+# Nestedness temporature example
+
+This example is taken from [Rdocumentation](https://www.rdocumentation.org/packages/bipartite/versions/0.90/topics/nestedness.corso)
+
+Use [Sipoo bird data](http://www.imsbio.co.jp/RGM/R_rdfile?f=vegan/man/sipoo.Rd&d=R_CC) as example.
+
+
+```{r}
+library("vegan")
+
+# use built-in data set
+data(sipoo)
+# take a look at the data
+sipoo[1:3, 1:6]
+
+```
+
+### Calculating temporature
+
+```{r}
+## Matrix temperature
+out <- nestedtemp(sipoo)
+out
+```
+
+### Making temperature plot
+
+```{r}
+plot(out)
+```
+
+
+#### Show only presence-absence data
+
+```{r}
+plot(out, kind="incid")
+
+```
+```{r}
+nesteddisc(sipoo, niter = 200)
+```
+
+## Compare the original vs. sorted plots
+
+### orginal
+
+```{r}
+ image(as.matrix(sipoo), col = topo.colors(5))
+```
+
+
+### osorted
+
+```{r}
+image(as.matrix(out$comm), col = topo.colors(5))
+```

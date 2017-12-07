@@ -2,25 +2,28 @@
 title: "Note on using colors in R"
 output: md_notebook
 ---
-
+### another way of plotting
 ```{r}
-# library(graphics)
-```
+library(devtools)
+install_github("weitingwlin/vennchart")
 
+library(vennchart)
+```
+raphics)
 (create a function to make example plots)
 
 ```{r}
-#circleplot <- function(c, r, color){
-#    theta <- seq(0, 2 *pi, 0.01)
-#    polygon(c[1] + sin(theta) * r, c[2] + cos(theta) * r, 
-#            col = color, border = NA, lwd = 2)
-#}
+circleplot <- function(c, r, color){
+    theta <- seq(0, 2 *pi, 0.01)
+    polygon(c[1] + sin(theta) * r, c[2] + cos(theta) * r, 
+            col = color, border = NA, lwd = 2)
+}
 ```
 
 ##
 ```{r}
-#install("C:/Users/Wei-Ting/Dropbox/DataCoding/my_R/package/testvenn")
-install_github("testRproject", "weitingwlin")
+install("C:/Users/Wei-Ting/Dropbox/DataCoding/my_R/package/testvenn")
+#install_github("testRproject", "weitingwlin")
 ```
 
 
